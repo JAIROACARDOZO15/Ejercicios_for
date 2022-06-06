@@ -1,11 +1,11 @@
 # Digite su nombre y le cuente cuantas vocales tiene su nombre 
-nombre = input("Digte su nombre: ")
+n = input("Digte su nombre: ")
 a1 = 0
 e1 = 0
 i1 = 0
 o1 = 0
 u1 = 0
-for vocal in nombre:
+for vocal in n:
     if vocal == "a":
         a1 += 1
     elif vocal == "e":
